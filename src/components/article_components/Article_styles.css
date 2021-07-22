@@ -1,0 +1,50 @@
+.article-title {
+    color: var(--dogeblog-color);
+    font-size: 2rem !important;
+}
+
+.reaction-icon {
+    background-color: white !important;
+    width: 60px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.reaction-icon-image {
+    background-color: white !important;
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reactions-component {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-body-small-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-body-small-bottom {
+    display: flex;
+    align-content: end;
+}
+
+.small-cover-img {
+    width: 200px;
+}
+@media Screen and (max-width: 600px) {
+    .small-cover-img {
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+.small-cover-top-articles {
+    max-width: 100%;
+}

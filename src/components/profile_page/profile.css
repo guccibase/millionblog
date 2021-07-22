@@ -1,0 +1,11 @@
+.profile-btn {
+    background-color: white !important;
+    border-color: white !important;
+    outline: none !important;
+}
+
+.avatar {
+    max-height: 150px;
+    max-width: 150px;
+    border-radius: 50%;
+}

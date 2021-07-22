@@ -1,0 +1,11 @@
+.signup {
+  color: var(--dogeblog-color);
+}
+
+.forgot-pwd {
+  color: red;
+}
+
+.cancel {
+  color: var(--dogeblog-color);
+}

@@ -1,0 +1,24 @@
+body {
+  --dogeblog-color: #d9bd62;
+  --dogeblog-background: #e6ecf0;
+  --dogeblog-primaryText: black;
+  --dogeblog-secondaryText: grey;
+}
+
+/* #root {
+  background-color: black;
+} */
+.form-control:focus {
+  border-color: var(--dogeblog-color) !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px var(--dogeblog-color) !important;
+}
+
+.auth-container {
+  max-width: 500px !important;
+  margin-top: 100px !important;
+}
+
+.article-small {
+  max-width: 380px !important;
+}

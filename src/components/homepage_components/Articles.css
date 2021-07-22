@@ -1,0 +1,54 @@
+.read-more {
+  align-self: start;
+  color: #0c5460 !important;
+}
+.new-article {
+  background-color: var(--dogeblog-color) !important;
+  color: var(--dogeblog-secondaryText) !important;
+}
+
+.filter-btn {
+  /* color: var(--dogeblog-color) !important; */
+  /* color: var(--dogeblog-secondaryText) !important; */
+}
+
+.tracker {
+  color: var(--dogeblog-color) !important;
+  font-size: 2rem;
+}
+
+.high {
+  font-size: 1.3rem;
+}
+
+.high {
+  font-size: 1.2rem;
+}
+
+.account {
+  /* color: var(--dogeblog-color) !important; */
+  color: black !important;
+}
+
+.no-results {
+  margin-top: 50px !important;
+}
+
+.navlink {
+  color: rgb(116, 97, 97) !important;
+}
+
+.most-liked-article {
+  border-left: 1px solid var(--dogeblog-color);
+  padding-left: 30px;
+}
+
+@media Screen and (max-width: 540px) {
+  .most-liked-article {
+    border: none;
+    padding-left: 0px;
+  }
+  .article-body-smaller {
+    min-width: 350px;
+  }
+}
